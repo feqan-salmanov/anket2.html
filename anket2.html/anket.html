@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .d1{
+            width: 1200px;
+            height: 50px;
+            margin: auto;
+            background-image: url(img/timthumb\ \(2\).jfif);
+            background-size: 100px 50px;
+            background-repeat:no-repeat ;
+            background-position: right;
+            border-radius: 5px;
+            border: rgb(211, 209, 209) solid 2px;
+            padding: 1px;
+            font-family: 'Kanit', sans-serif;
+            text-align: center;
+        }
+        .d2{
+            font-family: 'Kanit', sans-serif;
+            width: 1200px;
+            height: 750px;
+            border: rgb(211, 209, 209) solid 2px;
+            border-radius: 5px;
+            margin-top: 5px;
+            margin: auto;
+        }
+        .i1{
+            margin-left: 5px;
+            border: 2px solid rgb(211, 209, 209);
+            border-radius: 2px;
+            height: 20px;
+            padding: 2px;
+            width: 300px;
+        }
+        .r1{
+            width: 140px;
+            height: 60px;
+            background-color: rgb(250, 124, 124);
+            margin-left: 5px;
+            margin-right: 1px;
+            border-radius: 5px;
+            border: solid 2px;
+            margin-top: 20px;
+        }
+        .s1{
+            margin-top: 20px;
+            width: 1030px;
+            height: 60px;
+            background-color: rgb(137, 137, 252);
+            margin-left: 1px;
+            margin-right: 1px;
+            border-radius: 5px;
+            border: solid 2px;
+            
+        }
+        .r1:hover{
+            background-color:rgb(211, 209, 209) ;
+            border-radius: 5px;
+            border: solid 2px;
+        }
+        .s1:hover{
+            background-color:rgb(211, 209, 209) ;
+            border-radius: 5px;
+            border: solid 2px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="d1"><h1 style="margin-top: 0px; color: rgb(143, 143, 143);">SƏNİN ANKETİN</h1></div>
+    <div class="d2">
+        <h3 style="margin-top: 1px;margin-left: 5px;margin-bottom: 0px;">Şəxsi Məlumatlar :</h3><br>
+        <label for="name" style="margin-left: 5px;">Ad : </label>
+        <input type="text" name="name" class="i1" placeholder="Adınız">
+        <label for="name" style="margin-left: 5px;">Soy Ad : </label>
+        <input type="text" name="surname" class="i1" placeholder="Soy Adınız">
+        <label for="name" style="margin-left: 5px;">Ata Adı : </label>
+        <input type="text" name="name" class="i1" placeholder="Ata Adınız"><br>
+        <label for="date" style="margin-left: 5px;">Doğuluğunuz Tarix : </label>
+        <input type="date" name="date" class="i1" style="width: 187px;margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">Doğulduğun Yer: </label>
+        <input type="text" name="name" class="i1" placeholder="Doğulduğunuz Yer" style="width: 240px; margin-right: 3px;">
+        Cins :   
+        <label for="gender" style="margin-left: 30px;">Kişi</label> 
+        <input type="radio" name="gender" id="gender">
+        <label for="gender" > Qadın</label>
+        <input type="radio" name="gender" id="gender" checked><br>
+        <label for="name" style="margin-left: 5px; ">Vətəndaşlığınız : </label>
+        <input type="text" name="name" class="i1" placeholder="Vətəndaşlığınız" style="width: 210px; margin-right: 3px; margin-top: 20px;">
+         Hərbi xidmət keçmisinizmi ?  :
+        <label for="HXK" style="margin-left: 30px;">Hə</label> 
+        <input type="radio" name="HXK" >
+        <label for="HXK" > Yox</label>
+        <input type="radio" name="HXK" id="gender" checked style="margin-right: 45px;">
+         Ailə vəziyyəti :
+        <label for="AV" style="margin-left: 30px;">Evli</label> 
+        <input type="radio" name="AV" id="gender">
+        <label for="AV" > Subay</label>
+        <input type="radio" name="AV" id="gender" checked><br>
+        <label for="name" style="margin-left: 5px; ">Yaşadığınız ünvan : </label>
+        <input type="text" name="name" class="i1" placeholder="Yaşadığınız ünvan" style="width: 192px; margin-right: 3px; margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">Ev telefonunuz : </label>
+        <input type="text" name="name" class="i1" placeholder=" Ev telefonunuz" style="width: 240px; margin-right: 3px; margin-top: 20px;">
+        <label for="email"> Email : </label>
+        <input type="email" name="email" id="email " class="i1" style="margin-left: 20px;" placeholder="Sənin email-in"> <br>
+        <label for="name" style="margin-left: 5px; ">Mobil telefonunuz : </label>
+        <input type="text" name="name" class="i1" placeholder="Mobil telefonunuz" style="width: 192px; margin-right: 3px; margin-top: 20px;">
+        <h3 style="margin-top: 20px;margin-left: 5px;margin-bottom: 0px;">Təhsiliniz :</h3><br> 
+        <label for="name" style="margin-left: 5px; ">Təhsil müəssisəsinin adı : </label>
+        <input type="text" name="name" class="i1" placeholder="Təhsil müəssisənizin adı" style="width: 240px; margin-right: 3px; margin-top: 0px;">
+        <label for="name" style="margin-left: 5px; ">Təhsil müddəti : </label>
+        <input type="text" name="name" class="i1" placeholder="Təhsil müddətinz" style="width: 240px; margin-right: 3px; margin-top: 0px;">
+        <label for="name" style="margin-left: 5px; ">İxtisasınız : </label>
+        <input type="text" name="name" class="i1" placeholder="İxtisasınız" style="width: 240px; margin-right: 3px; margin-top: 0px;">
+        <label for="name" style="margin-left: 5px; ">Diplomun nömrəsi : </label>
+        <input type="text" name="name" class="i1" placeholder="Diplomunuzun nömrəsi" style="width: 200px; margin-right: 3px; margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">Diplomun verilmə tarixi : </label>
+        <input type="text" name="name" class="i1" placeholder="Diplomunuzun verilmə tarixi" style="width: 240px; margin-right: 3px; margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">Diplom üzrə peşə : </label>
+        <input type="text" name="name" class="i1" placeholder="Diplom üzrə peşəniz" style="width: 210px; margin-right: 3px; margin-top: 20px;">
+        <h3 style="margin-top: 20px;margin-left: 5px;margin-bottom: 0px;">İş təcrübəniz :</h3><br> 
+        <label for="name" style="margin-left: 5px; ">İdarə, təşkilat və ya müəssisənin adı : </label>
+        <input type="text" name="name" class="i1" placeholder="İdarə, təşkilat və ya müəssisənin adı" style="width: 260px; margin-right: 3px; margin-top: 0px;">
+        <label for="name" style="margin-left: 5px; ">İdarənin, təşkilatın və müəssisənin yeri : </label>
+        <input type="text" name="name" class="i1" placeholder="İdarənin, təşkilatın və müəssisənin yeri" style="width: 260px; margin-right: 3px; margin-top: 0px;"><br>
+        <label for="name" style="margin-left: 5px; ">İşlədiyiniz müddət : </label>
+        <input type="text" name="name" class="i1" placeholder="İşlədiyiniz müddət" style="width: 210px; margin-right: 3px; margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">Vəzifəniz(peşəniz) : </label>
+        <input type="text" name="name" class="i1" placeholder="Vəzifəniz(peşəniz)" style="width: 210px; margin-right: 3px; margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">İşdən ayrılma səbəbiniz : </label>
+        <input type="text" name="name" class="i1" placeholder="İşdən ayrılma səbəbiniz" style="width: 210px; margin-right: 3px; margin-top: 20px;"><br>
+        <label for="name" style="margin-left: 5px; ">Müraciət etdiyiniz vəzifə : </label>
+        <input type="text" name="name" class="i1" placeholder="Müraciət etdiyiniz vəzifə" style="width: 210px; margin-right: 3px; margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">Dil bilikləriniz : </label>
+        <input type="text" name="name" class="i1" placeholder="Dil bilikləriniz" style="width: 210px; margin-right: 3px; margin-top: 20px;">
+        <label for="name" style="margin-left: 5px; ">Kompüter bilikləriniz : </label>
+        <input type="text" name="name" class="i1" placeholder="Kompüter bilikləriniz" style="width: 210px; margin-right: 3px; margin-top: 20px;"><br>
+        <label for="name" style="margin-left: 5px; ">Sertifikatlarınız : </label>
+        <input type="text" name="name" class="i1" placeholder="Sertifikatlarınız" style="width: 210px; margin-right: 3px; margin-top: 20px;"><br>
+        <button type="reset" class="r1">Sıfırla</button>
+        <button type="submit" class="s1"> Göndər</button>
+
+               
+    </div>
+</body>
+</html>
